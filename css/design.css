@@ -1,0 +1,45 @@
+root {
+    display: block;
+}
+
+body {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+body table {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+
+div.header {
+    background-color: gray;
+    color: white;
+}
+
+div.menu {
+    background-color: silver;
+}
+
+div.menu > a {
+    display: inline-block;
+    line-height: 20pt;
+    padding: 0 8pt;
+    margin: 2pt 0;
+    color: black;
+    border-right: 1px dotted gray;
+    text-decoration: none;
+}
+
+div.menu > a:hover {
+    color: #fff066;
+}
+
+div.menu > a.last {
+    border-right: none;
+}
+
+div#content {
+    margin: 5pt;
+}

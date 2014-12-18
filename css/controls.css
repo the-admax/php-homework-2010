@@ -1,0 +1,58 @@
+/*table {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}*/
+
+#page {
+    border: 1px dotted #d6d6d6;
+}
+
+div.errors {
+    margin: 2pt;
+    border: 1px solid red;
+    padding: 2pt;
+    background-color: #ffd4d4;
+}
+
+div.messages {
+    margin: 2pt;
+    border: 1px dotted gray;
+    padding: 2pt;
+    background-color: #ecebeb;
+}
+
+div.message {
+    margin: 2pt;
+    padding: 2pt;
+    width: 500px;
+    border: 1px solid gray;
+}
+
+div.messages span.action {
+}
+
+tr.error input {
+    background-color: #ffcccc;
+}
+
+form > div {
+    margin: 5pt;
+}
+
+form input {
+    border: 1px solid gray;
+    /*text-align: right;*/
+}
+
+table.users {
+    border: 1px solid gray;
+    margin: 0;
+    padding: 0;
+}
+table.users td {
+    margin: 0;
+    padding: 2pt 4pt;
+    border-top: 1px solid silver;
+    border-left: 1px solid silver;
+}
+
