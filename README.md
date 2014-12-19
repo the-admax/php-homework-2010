@@ -1,6 +1,13 @@
 Homework (2010 Dec 21)
 =======
 
+**WARNING!** This app is not intended for usage in the wild!
+It has
+* numerous security errors
+* unsafe presumptions
+* ugly interface. Yes, it may be redisigned, but...
+* app has no practical use. At all.
+
 **Frameworks used**: None (bare PHP)
 
 **Language of comments**: Russian
